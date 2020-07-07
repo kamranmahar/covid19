@@ -39,7 +39,7 @@ export default function MainGraph(prop) {
                         ]
                     }}
                     options={{
-                        title: { display: true, text: `(Infected vs Recovered vs Deaths) ${prop.countryCode}`},
+                        title: { display: true, text: `(Infected vs Recovered vs Deaths) ${countryCode}`},
                         plugins: {
                             labels: [
                                 {
