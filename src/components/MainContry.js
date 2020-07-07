@@ -35,7 +35,7 @@ export default function MainContry() {
         setCountryCode(event.target.value);
         let code=event.target.value;
         var filtereddata =  countries.filter(function(country) {
-          return country.code = String(code);
+          return country.code === String(code);
         });
         
         setCocuntryData(filtereddata[0].data);
