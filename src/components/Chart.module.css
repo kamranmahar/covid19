@@ -1,0 +1,41 @@
+.columnContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    flex: 1 0 auto;
+    margin: 20px 0px 50px 0px;
+}
+.rowContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+.pieChartClass {
+    width: 500px;
+}
+
+.barChartClass {
+    width: 500px;
+    padding: 10px;
+}
+
+.chartClass{
+    margin: 40px;
+}
+
+@media (max-width: 770px) {
+    .pieChartClass {
+        width: 400px;
+    }
+    
+    .barChartClass {
+        width: 300px;
+    }
+
+    .chartClass {
+        width: 300px;
+        margin-left: 50px;
+    }
+}
