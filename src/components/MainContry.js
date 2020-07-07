@@ -1,9 +1,9 @@
-import React ,{ useEffect , useState } from 'react';
+import React ,{ useEffect  } from 'react';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import NativeSelect from '@material-ui/core/NativeSelect';
-import InputLabel from '@material-ui/core/InputLabel';
+
 
 import CountryData from './CountryData';
 import MainGraph from './MainGraph';
@@ -35,7 +35,7 @@ export default function MainContry() {
         setCountryCode(event.target.value);
         let code=event.target.value;
         var filtereddata =  countries.filter(function(country) {
-          return country.code == String(code);
+          return country.code = String(code);
         });
         
         setCocuntryData(filtereddata[0].data);

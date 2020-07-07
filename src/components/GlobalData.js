@@ -40,7 +40,7 @@ export default function GlobalData() {
     
             fetchGlobalData();
     
-        } ,[1])
+        } ,[setGlobalData])
 
     const loading ="Loading";
    // console.log(globaldata);

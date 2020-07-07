@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   }));
 export default function CountryData(prop) {
     const classes =useStyles();
-    const loading ="Loading";
+ 
       console.log(prop.data.code);
         return (
           <div>
